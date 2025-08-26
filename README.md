@@ -1,0 +1,75 @@
+# Project Title: Trivest Publishing House Website
+
+**Student Name:** Nkosinathi Ngema
+**Student Number:** ST10489912
+**Module:** WEDE5020 - Web Development (Introduction)
+
+---
+
+## Project Overview
+
+[Provide a brief 2-3 sentence description of the website project and its purpose for the chosen organisation.]
+
+## Website Goals and Objectives
+
+Number of submissions received through website
+Number of sales through the website links
+Growth in newsletter sign-ups
+
+## Key Features and Functionality
+
+- Responsive navigation menu
+- About Us section with company history
+- Services/Products showcase page
+- Functional enquiry form
+- Contact page with contact form
+
+## Sitemap
+
+![alt text][images/image.png]
+
+## Timeline and Milestones
+
+| Date | Milestone |
+| :--- | :--- |
+| [27 August 2025] | Part 1 Submission: HTML Structure & Proposal |
+| [26 September 2025] | Part 2 Submission: CSS Styling |
+| [Date not yet given] | Part 3 Submission: JavaScript & SEO |
+
+## Part 1 Details
+
+This section contains the initial HTML structure, project proposal, and content research for the website.
+
+## Changelog
+
+All notable changes to this project will be documented in this section.
+
+| Date | Version | Description |
+| :--- | :--- | :--- |
+| 2025-03-20 | 0.1 | Initial commit. Created folder structure and base HTML files. |
+| 2025-03-21 | 0.2 | Added content to index.html and about.html. Linked navigation. |
+| 2025-03-22 | 0.3 | Completed content for all pages. Updated README with project details. |
+
+## References
+
+​​Afrihost, 2025. Domains. [online] Available at: < <https://www.afrihost.com/domains> > [Accessed 07 August 2025].
+
+​Afrihost, 2025. Cloud Hosting. [Online] Available at: < <https://www.afrihost.com/cloud-hosting> > [Accessed 07 August 2025]. ​​
+
+### Images
+
+- Author. (Year). *Title of image* [Type]. Available at: URL (Accessed: Date).
+- e.g., Pixabay. (2018). *Person typing on laptop* [Photograph]. Available at: <https://pixabay.com/photos/person-typing-on-laptop-1209366/> (Accessed: 21 March 2025).
+
+### Content
+
+- Author. (Year). *Title of page*. Available at: URL (Accessed: Date).
+- e.g., Smith, J. (2023). *About Our Company*. Available at: <https://www.example.com/about> (Accessed: 21 March 2025).
+
+### Code Snippets (if any)
+
+- Author/Username. (Year). *Title of code snippet* [Source code]. Available at: URL (Accessed: Date).
+- e.g., Johnson, M. (2022). *Responsive Navigation Bar* [Source code]. Available at: <https://www.examplecode.com/responsive-nav> (Accessed: 21 March 2025).
+
+
+[images/image.png]: images/image.png
