@@ -8,7 +8,9 @@
 
 ## Project Overview
 
-[Provide a brief 2-3 sentence description of the website project and its purpose for the chosen organisation.]
+The objective of this project is to create a professional and modern website for an organisation of our choice.
+I decided to create a website for Trivest Publishing House, a smal publication company. 
+This website will feature the company's services and information on the company. It will increase it's online presence and provide information for users. 
 
 ## Website Goals and Objectives
 
@@ -21,7 +23,6 @@ Growth in newsletter sign-ups
 - Responsive navigation menu
 - About Us section with company history
 - Services/Products showcase page
-- Functional enquiry form
 - Contact page with contact form
 
 ## Sitemap
@@ -70,11 +71,3 @@ All notable changes to this project will be documented in this section.
 
 - Author. (Year). *Title of page*. Available at: URL (Accessed: Date).
 - e.g., Smith, J. (2023). *About Our Company*. Available at: <https://www.example.com/about> (Accessed: 21 March 2025).
-
-### Code Snippets (if any)
-
-- Author/Username. (Year). *Title of code snippet* [Source code]. Available at: URL (Accessed: Date).
-- e.g., Johnson, M. (2022). *Responsive Navigation Bar* [Source code]. Available at: <https://www.examplecode.com/responsive-nav> (Accessed: 21 March 2025).
-
-
-[images/image.png]: images/image.png
