@@ -47,7 +47,7 @@ All notable changes to this project will be documented in this section.
 
 | Date | Version | Description |
 | :--- | :--- | :--- |
-| 2025-08-18 | 0.1 | Created the folder structure and HTML pages. |
+| 2025-08-18 | 0.1 | Created the folder structure and HTML pages. README.md file created.|
 | 2025-08-19 | 0.2 | Added content to index.html and about.html. Created navigation links on all pages. |
 | 2025-08-20 | 0.3 | Added forms to index.html, contactus.html, and submission.html. |
 | 2025-08-21 | 0.4 | Added more content to menu.html and index.html. |
