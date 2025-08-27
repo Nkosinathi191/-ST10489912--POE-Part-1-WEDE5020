@@ -62,4 +62,4 @@ All notable changes to this project will be documented in this section.
 
 ​Afrihost, 2025. Cloud Hosting. [Online] Available at: < <https://www.afrihost.com/cloud-hosting> > [Accessed 07 August 2025]. ​​
 
-
+W3Schools, 2025. *HTML Tutorial*. [online] Available at: < <https://www.w3schools.com/html/> > [Accessed: 25 August 2025]. 
