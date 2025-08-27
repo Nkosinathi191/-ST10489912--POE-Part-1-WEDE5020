@@ -46,9 +46,14 @@ All notable changes to this project will be documented in this section.
 
 | Date | Version | Description |
 | :--- | :--- | :--- |
-| 2025-03-20 | 0.1 | Initial commit. Created folder structure and base HTML files. |
-| 2025-03-21 | 0.2 | Added content to index.html and about.html. Linked navigation. |
-| 2025-03-22 | 0.3 | Completed content for all pages. Updated README with project details. |
+| 2025-08-18 | 0.1 | Created the folder structure and HTML pages. |
+| 2025-08-19 | 0.2 | Added content to index.html and about.html. Created navigation links on all pages. |
+| 2025-08-20 | 0.3 | Added forms to index.html, contactus.html, and submission.html. |
+| 2025-08-21 | 0.4 | Added more content to menu.html and index.html. |
+| 2025-08-22 | 0.5 | Added content to authors.html and aboutus.html. |
+| 2025-08-23 | 0.6 | Added book covers to index.html and menu.html. |
+| 2025-08-25 | 0.7 | Added footers to all the pages. |
+| 2025-08-26 | 0.8 | Modified some content on all the footers and contactus.html. |
 
 ## References
 
