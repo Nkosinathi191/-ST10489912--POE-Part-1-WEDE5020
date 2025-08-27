@@ -27,7 +27,7 @@ Growth in newsletter sign-ups
 
 ## Sitemap
 
-![][images/image.png]
+![Alt text](images/image.png)
 
 ## Timeline and Milestones
 
