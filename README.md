@@ -62,12 +62,4 @@ All notable changes to this project will be documented in this section.
 
 ​Afrihost, 2025. Cloud Hosting. [Online] Available at: < <https://www.afrihost.com/cloud-hosting> > [Accessed 07 August 2025]. ​​
 
-### Images
 
-- Author. (Year). *Title of image* [Type]. Available at: URL (Accessed: Date).
-- e.g., Pixabay. (2018). *Person typing on laptop* [Photograph]. Available at: <https://pixabay.com/photos/person-typing-on-laptop-1209366/> (Accessed: 21 March 2025).
-
-### Content
-
-- Author. (Year). *Title of page*. Available at: URL (Accessed: Date).
-- e.g., Smith, J. (2023). *About Our Company*. Available at: <https://www.example.com/about> (Accessed: 21 March 2025).
