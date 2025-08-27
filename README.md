@@ -9,8 +9,8 @@
 ## Project Overview
 
 The objective of this project is to create a professional and modern website for an organisation of our choice.
-I decided to create a website for Trivest Publishing House, a smal publication company. 
-This website will feature the company's services and information on the company. It will increase it's online presence and provide information for users. 
+I decided to create a website for Trivest Publishing House, a smal publication company.
+This website will feature the company's services and information on the company. It will increase it's online presence and provide information for users.
 
 ## Website Goals and Objectives
 
