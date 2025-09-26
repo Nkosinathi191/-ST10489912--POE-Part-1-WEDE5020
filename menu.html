@@ -3,85 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trivest Publishing House | Book Catalogue</title>
+    <title>Book Catalogue</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header> <!--Header and Navigation Section-->
-      <img src="images/TP Logo.png" alt="Trivest Logo" width="50" height="50">
-        <h1 align ="center">Book Catalogue</h1>
-        <nav align ="center">
+    <header>
+        <h1>Book Catalogue</h1>
+        <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+        <nav>
             <a href="index.html">Homepage</a>
             <a href="aboutus.html">About Us</a>
             <a href="contactus.html">Contact Us</a>
             <a href="menu.html">Book Catalogue</a>
             <a href="authors.html">Our Authors</a>
-            <a href="submission.html">Manscript Submission</a>
+            <a href="submission.html">Manuscript Submission</a>
         </nav>
     </header>
-<hr>
-    <main align="center">
-    <h2>Featured Books</h2> <!--Section that shows featured books-->
-        
-        <article>
-        <h4>Glass and Gunpowder</h4>
-        <img src="images/BookCover4.png" width="200" height="300">
-        <p><strong>Author:</strong> Niko Stryde</p>
-        <p>Sky pirates, gears, and revolution — a steampunk adventure with teeth.</p>
-      </article>
-      <article>
-        <h4>A Dangerous Affair</h4>
-        <img src="images/BookCover1.png" width="200" height="300">
-        <p><strong>Author:</strong> Thandiwe Mokoena</p>
-        <p>A hidden legacy, fractured loyalties, and the rise of a reluctant queen in a kingdom at war.</p>
-      </article>
-      <article>
-        <h4>Dust over Durban</h4>
-        <img src="images/BookCover2.png" width="200" height="300">
-        <p><strong>Author:</strong> Jaco van der Merwe</p>
-        <p>Crime, corruption, and survival collide in this gritty noir thriller set on South Africa’s east coast.</p>
-      </article>
 
-      <h2>Published Titles</h2> <!--Shows already published and available titles-->
-    <article>
-        <h4>Echoes of the Karoo</h4>
-        <p><strong>Author:</strong> Lerato Khumalo</p>
-        <p>A heartwarming tale of friendship, family secrets, and life in rural South Africa.</p>
-      </article>
-      <article>
-        <h4>Midnight in Pretoria</h4>
-        <p><strong>Author:</strong> Pieter Botha</p>
-        <p>A gripping thriller exploring political intrigue and personal betrayal in the capital city.</p>
-      </article>
-      <article>
-        <h4>Savanna Dreams</h4>
-        <p><strong>Author:</strong> Zinhle Dlamini</p>
-        <p>A coming-of-age adventure filled with wildlife, courage, and the beauty of the African plains.</p>
-      </article>
+    <main>
+        <section class="featured-books">
+            <h2>Featured Books</h2>
+            <div class="book-card">
+                <img src="images/BookCover4.png" class="book-cover">
+                <h4>Glass and Gunpowder</h4>
+                <p><strong>Author:</strong> Niko Stryde</p>
+                <p>Sky pirates, gears, and revolution — a steampunk adventure with teeth.</p>
+            </div>
+            <div class="book-card">
+                <img src="images/BookCover1.png" class="book-cover">
+                <h4>A Dangerous Affair</h4>
+                <p><strong>Author:</strong> Thandiwe Mokoena</p>
+                <p>A hidden legacy, fractured loyalties, and the rise of a reluctant queen in a kingdom at war.</p>
+            </div>
+            <div class="book-card">
+                <img src="images/BookCover2.png" class="book-cover">
+                <h4>Dust over Durban</h4>
+                <p><strong>Author:</strong> Jaco van der Merwe</p>
+                <p>Crime, corruption, and survival collide in this gritty noir thriller set on South Africa’s east coast.</p>
+            </div>
+        </section>
 
-      <h2>Coming Soon</h2> <!--Shows titles that are yet to be published and be available-->
-      <article>
-        <h4>Shadows over Johannesburg</h4>
-        <p><strong>Author:</strong> Themba Nkosi</p>
-        <p>A dark urban fantasy where ancient magic resurfaces in modern South Africa.</p>
-      </article>
-      <article>
-        <h4>Whispers in the Winelands</h4>
-        <p><strong>Author:</strong> Anika van Rensburg</p>
-        <p>A mystery set in the lush vineyards, with secrets hidden behind every cork.</p>
-      </article>
-      <article>
-        <h4>The Last Baobab</h4>
-        <p><strong>Author:</strong> Sipho Maseko</p>
-        <p>An epic story of environmental struggle and family legacy in a rapidly changing world.</p>
-      </article>
-      <p>Looking to get published? <a href="submission.html">Submit your manuscript</a> today.</p> <!--Call to action for people looking to be published-->
-      </main>
+        <section class="published-titles">
+            <h2>Published Titles</h2>
+            <div class="book-card">
+                <h4>Echoes of the Karoo</h4>
+                <p><strong>Author:</strong> Lerato Khumalo</p>
+                <p>A heartwarming tale of friendship, family secrets, and life in rural South Africa.</p>
+            </div>
+            <div class="book-card">
+                <h4>Midnight in Pretoria</h4>
+                <p><strong>Author:</strong> Pieter Botha</p>
+                <p>A gripping thriller exploring political intrigue and personal betrayal in the capital city.</p>
+            </div>
+            <div class="book-card">
+                <h4>Savanna Dreams</h4>
+                <p><strong>Author:</strong> Zinhle Dlamini</p>
+                <p>A coming-of-age adventure filled with wildlife, courage, and the beauty of the African plains.</p>
+            </div>
+        </section>
 
-      <footer align="center">
-        <h4>Trivest Publishing House</h4>
-        <p>Discovering powerful voices and bringing compelling stories to readers across South Africa and the world.</p>
-    
-        <h4>Explore</h4>
+        <section class="coming-soon">
+            <h2>Coming Soon</h2>
+            <div class="book-card">
+                <h4>Shadows over Johannesburg</h4>
+                <p><strong>Author:</strong> Themba Nkosi</p>
+                <p>A dark urban fantasy where ancient magic resurfaces in modern South Africa.</p>
+            </div>
+            <div class="book-card">
+                <h4>Whispers in the Winelands</h4>
+                <p><strong>Author:</strong> Anika van Rensburg</p>
+                <p>A mystery set in the lush vineyards, with secrets hidden behind every cork.</p>
+            </div>
+            <div class="book-card">
+                <h4>The Last Baobab</h4>
+                <p><strong>Author:</strong> Sipho Maseko</p>
+                <p>An epic story of environmental struggle and family legacy in a rapidly changing world.</p>
+            </div>
+        </section>
+
+        <p class="submit-link">Looking to get published? <a href="submission.html">Submit your manuscript</a> today.</p>
+    </main>
+
+        <footer>
+        <div class="footer-columns">
+            <div>
+                <h4>Trivest Publishing House</h4>
+                <p>Discovering powerful voices and bringing compelling stories to readers across South Africa and the world.</p>
+            </div>
+
+            <div>
+                <h4>Explore</h4>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="aboutus.html">About Us</a></li>
@@ -89,23 +100,28 @@
                     <li><a href="menu.html">Book Catalogue</a></li>
                     <li><a href="submission.html">Submit Manuscript</a></li>
                 </ul>
-    
-        <h4>Get in Touch</h4>
-        <p><strong>Email:</strong><br>enquiries@trivestpublishing.co.za</p>
-        <p><strong>Phone (Main Office):</strong><br>+27 75 890 5523</p>
-        <p><strong>Phone (Johannesburg Office):</strong><br>+27 75 334 7769</p>
-        <p><strong>Phone (Cape Town Office):</strong>+27 75 889 5678</p>
-        <p><strong>Address (Main Office):</strong>3476 Grover Avenue,Pretoria, 2000</p>
-        <p><strong>Address (Johannesburg Office):</strong><br>1091 Bresson Street, Johannesburg, 2001</p>
-        <p><strong>Address (Cape Town Office):</strong>2983 Crescent Drive, Cape Town, 4456</p>
+            </div>
+
+            <div>
+                <h4>Get in Touch</h4>
+                <p><strong>Email:</strong><br>info@trivestpublishing.co.za</p>
+                <p><strong>Phone:</strong><br>+27 21 555 1234</p>
+                <p><strong>Address:</strong><br>123 Long Street,<br>Cape Town, South Africa</p>
+            </div>
+
+            <div>
                 <h4>Connect With Us</h4>
-                    <a href="#">Facebook</a>
-                    <a href="#">Twitter</a>
-                    <a href="#">Instagram</a>
-                    <a href="#">LinkedIn</a>
-        
-                    <p>&copy; 2025 Trivest Publishing House. All rights reserved.</p>
-                    <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a></p>
+                <a href="#" aria-label="Visit our Facebook page">Facebook</a>
+                <a href="#" aria-label="Follow us on Twitter">Twitter</a>
+                <a href="#" aria-label="Follow us on Instagram">Instagram</a>
+                <a href="#" aria-label="Connect on LinkedIn">LinkedIn</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Trivest Publishing House. All rights reserved.</p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a></p>
+        </div>
     </footer>
 </body>
 </html>

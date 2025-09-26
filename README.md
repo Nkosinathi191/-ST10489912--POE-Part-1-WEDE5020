@@ -55,6 +55,11 @@ All notable changes to this project will be documented in this section.
 | 2025-08-23 | 0.6 | Added book covers to index.html and menu.html. |
 | 2025-08-25 | 0.7 | Added footers to all the pages. |
 | 2025-08-26 | 0.8 | Modified some content on all the footers and contactus.html. |
+| 2025-09-01 | 0.9 | Created CSS file and started implemnting global styles. |
+| 2025-09-03 | 1.0 | Started adding CSS styling to the index.html class. |
+| 2025-09-04 | 1.1 | Continues adding CSS styling to the index.hmtl file, and also starting with the contactus.html file.|
+
+
 
 ## References
 

@@ -3,83 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trivest Publishing House | Manuscript Submission</title>
+    <title>Manuscript Submission</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header> <!--Header and Navigation Section-->
-        <img src="images/TP Logo.png" alt="Trivest Logo" width="50" height="50">
-        <h1 align ="center">Manuscript Submission Form</h1>
-        <nav align ="center">
-            <a href="index.html">Homepage</a>
-            <a href="aboutus.html">About Us</a>
-            <a href="contactus.html">Contact Us</a>
-            <a href="menu.html">Book Catalogue</a>
-            <a href="authors.html">Our Authors</a>
-            <a href="submission.html">Manscript Submission</a>
-        </nav>
+    <header>
+        <div class="header-container">
+            <h1>Manuscript Submission Form</h1>
+            <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+            <nav class="main-nav">
+                <a href="index.html">Homepage</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="contactus.html">Contact Us</a>
+                <a href="menu.html">Book Catalogue</a>
+                <a href="authors.html">Our Authors</a>
+                <a href="submission.html">Manuscript Submission</a>
+            </nav>
+        </div>
     </header>
-<hr>
-<main align="center"> <!--Prompts users on their details when submitting their manuscript-->
-    <form align="center" action="scripts.html" method="post" enctype="multipart/form-data">
-        <label for="name">Author Name</label>
-        <input type="text" id="name" name="name" required /><br><br>
-      
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required /><br><br>
-      
-        <label for="title">Book Title</label>
-        <input type="text" id="title" name="title" required /><br><br>
-      
-        <label for="genre">Genre</label> <!--Drop down options for different genres-->
-        <select id="genre" name="genre" required>
-          <option value="">Select a genre</option>
-          <option>Fantasy</option>
-          <option>Romance</option>
-          <option>Thriller</option>
-          <option>Sci-Fi</option>
-          <option>Literary</option>
-        </select><br><br>
-      
-        <label for="synopsis">Synopsis</label>
-        <textarea id="synopsis" name="synopsis" rows="5" placeholder="Include your pitch, main conflict, and what makes your story shine." required></textarea><br><br>
-      
-        <label for="manuscript">Upload Manuscript (PDF/DOC)</label> <!--Users can upload files for submission-->
-        <input type="file" id="manuscript" name="manuscript" accept=".pdf,.doc,.docx" required /><br><br>
-      
-        <button type="submit">Submit</button>
-      </form>
-      <p>Got any questions for us? Feel free to <a href="contactus.html">contact us.</a></p> <!--Call to action for contacting the company-->
-</main>
 
-<footer align="center">
-    <h4>Trivest Publishing House</h4>
-    <p>Discovering powerful voices and bringing compelling stories to readers across South Africa and the world.</p>
+    <main>
+        <section class="submission-section">
+            <div class="form-container">
+                <form action="scripts.html" method="post" enctype="multipart/form-data">
+                    <label for="name">Author Name</label>
+                    <input type="text" id="name" name="name" required />
 
-    <h4>Explore</h4>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="authors.html">Our Authors</a></li>
-                <li><a href="menu.html">Book Catalogue</a></li>
-                <li><a href="submission.html">Submit Manuscript</a></li>
-            </ul>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required />
 
-    <h4>Get in Touch</h4>
-    <p><strong>Email:</strong><br>enquiries@trivestpublishing.co.za</p>
-    <p><strong>Phone (Main Office):</strong><br>+27 75 890 5523</p>
-    <p><strong>Phone (Johannesburg Office):</strong><br>+27 75 334 7769</p>
-    <p><strong>Phone (Cape Town Office):</strong>+27 75 889 5678</p>
-    <p><strong>Address (Main Office):</strong>3476 Grover Avenue,Pretoria, 2000</p>
-    <p><strong>Address (Johannesburg Office):</strong><br>1091 Bresson Street, Johannesburg, 2001</p>
-    <p><strong>Address (Cape Town Office):</strong>2983 Crescent Drive, Cape Town, 4456</p>
-            <h4>Connect With Us</h4>
-                <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
-                <a href="#">Instagram</a>
-                <a href="#">LinkedIn</a>
-    
-                <p>&copy; 2025 Trivest Publishing House. All rights reserved.</p>
-                <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a></p>
-</footer>
+                    <label for="title">Book Title</label>
+                    <input type="text" id="title" name="title" required />
+
+                    <label for="genre">Genre</label>
+                    <select id="genre" name="genre" required>
+                        <option value="">Select a genre</option>
+                        <option>Fantasy</option>
+                        <option>Romance</option>
+                        <option>Thriller</option>
+                        <option>Sci-Fi</option>
+                        <option>Literary</option>
+                    </select>
+
+                    <label for="synopsis">Synopsis</label>
+                    <textarea id="synopsis" name="synopsis" rows="5" placeholder="Include your pitch, main conflict, and what makes your story shine." required></textarea>
+
+                    <label for="manuscript">Upload Manuscript (PDF/DOC)</label>
+                    <input type="file" id="manuscript" name="manuscript" accept=".pdf,.doc,.docx" required />
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+        <footer>
+        <div class="footer-columns">
+            <div>
+                <h4>Trivest Publishing House</h4>
+                <p>Discovering powerful voices and bringing compelling stories to readers across South Africa and the world.</p>
+            </div>
+
+            <div>
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="authors.html">Our Authors</a></li>
+                    <li><a href="menu.html">Book Catalogue</a></li>
+                    <li><a href="submission.html">Submit Manuscript</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Get in Touch</h4>
+                <p><strong>Email:</strong><br>info@trivestpublishing.co.za</p>
+                <p><strong>Phone:</strong><br>+27 21 555 1234</p>
+                <p><strong>Address:</strong><br>123 Long Street,<br>Cape Town, South Africa</p>
+            </div>
+
+            <div>
+                <h4>Connect With Us</h4>
+                <a href="#" aria-label="Visit our Facebook page">Facebook</a>
+                <a href="#" aria-label="Follow us on Twitter">Twitter</a>
+                <a href="#" aria-label="Follow us on Instagram">Instagram</a>
+                <a href="#" aria-label="Connect on LinkedIn">LinkedIn</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Trivest Publishing House. All rights reserved.</p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a></p>
+        </div>
+    </footer>
 </body>
 </html>

@@ -3,99 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trivest Publishing House | Homepage</title>
+    <title>Trivest Publishing House</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Header Section for easy navigation between the pages-->
+    <!-- Header Section -->
     <header>
-        <span>
-        <img src="images/TP Logo.png" alt="Trivest Logo" width="50" height="50">
-        <h1 align ="center">Trivest Publishing House</h1>
-        </span>
-        <nav align ="center">
+        <h1>Trivest Publishing House</h1>
+        <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+        <nav>
             <a href="index.html">Homepage</a>
             <a href="aboutus.html">About Us</a>
             <a href="contactus.html">Contact Us</a>
             <a href="menu.html">Book Catalogue</a>
             <a href="authors.html">Our Authors</a>
-            <a href="submission.html">Manscript Submission</a>
+            <a href="submission.html">Manuscript Submission</a>
         </nav>
     </header>
-<hr>
-<!--Hero Banner Section-->
-    <h2 align="center">Welcome To Trivest Publishing</h2>
-    <!--Call to action-->
-    <p align="center">Explore our extraordinary stories. Share your story and vision with the world.</p>
-    <nav align="center">
-        <a href="menu.html">Explore Our Book Catalogue</a>
-        <a href="submission.html">Submit Your Manuscript</a>
-    </nav>
-<main align="center"> <!--For the man content of the page-->
-    <h3>Featured Books</h3> <!--Shows featured books that have been published-->
-    <h4>A Dangerous Affair</h4>
-    <img src="images/BookCover1.png" width="200" height="300">
-    <p>Thandiwe Mokoena</p>
-    <p>A hidden legacy, fractured loyalties, and the rise of a reluctant queen in a kingdom at war.</p>
+
     
-    <h4>Dust over Durban</h4>
-    <img src="images/BookCover2.png" width="200" height="300">
-    <p>Jaco van der Merwe</p>
-    <p>Crime, corruption, and survival collide in this gritty noir thriller set on South Africa’s east coast.</p>
-    
-    <h4>The Star-Wrought Throne</h4>
-    <img src="images/BookCover3.png" width="200" height="300">
-    <p>Elira Thorne</p>
-    <p>Epic fantasy meets rebellion and forgotten royalty in this breathtaking debut.</p>
 
-    <h4>Glass and Gunpowder</h4>
-    <img src="images/BookCover4.png" width="200" height="300">
-    <p>Niko Stryde</p>
-    <p>Sky pirates, gears, and revolution — a steampunk adventure with teeth.</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Welcome to Trivest Publishing</h2>
+        <p>Explore extraordinary stories. Share your vision with the world.</p>
+        <div class="cta-buttons">
+            <a href="menu.html" class="btn">Explore Our Book Catalogue</a>
+            <a href="submission.html" class="btn">Submit Your Manuscript</a>
+        </div>
+    </section>
 
-    <h3>Latest News</h3> <!--Provides updates and news about authors and new books-->
-    <ul>
-      <li>New release: <em>Dust over Durban: New Horizons</em> – September 2025</li>
-      <li>Submissions open for 2025 Fiction titles</li>
-      <li>Author Thandiwe Mokoena wins Emerging Voices Award</li>
-    </ul>
+    <!-- Featured Books Section -->
+    <main>
+        <h3>Featured Books</h3>
+        <div class="featured-books">
+            <div class="book-card">
+                <img src="images/BookCover1.png" class="book-cover">
+                <h4>A Dangerous Affair</h4>
+                <p><em>Thandiwe Mokoena</em></p>
+                <p>A hidden legacy, fractured loyalties, and the rise of a reluctant queen in a kingdom at war.</p>
+                 <a href="book1.html" class="btn">Learn More</a>
+            </div>
+            <div class="book-card">
+                <img src="images/BookCover2.png" class="book-cover">
+                <h4>Dust over Durban</h4>
+                <p><em>Jaco van der Merwe</em></p>
+                <p>Crime, corruption, and survival collide in this gritty noir thriller set on South Africa’s east coast.</p>
+                 <a href="book1.html" class="btn">Learn More</a>
+            </div>
+            <div class="book-card">
+                <img src="images/BookCover3.png" class="book-cover">
+                <h4>The Star-Wrought Throne</h4>
+                <p><em>Elira Thorne</em></p>
+                <p>Epic fantasy meets rebellion and forgotten royalty in this breathtaking debut.</p>
+                 <a href="book1.html" class="btn">Learn More</a>
+            </div>
+            <div class="book-card">
+                <img src="images/BookCover4.png" class="book-cover">
+                <h4>Glass and Gunpowder</h4>
+                <p><em>Niko Stryde</em></p>
+                <p>Sky pirates, gears, and revolution — a steampunk adventure with teeth.</p>
+                 <a href="book1.html" class="btn">Learn More</a>
+            </div>
+        </div>
 
-    <h3>Join Our Newsletter</h3> <!--Call to action for signing up for a newsletter-->
-    <p>Stay up to date with new releases, author events, and submission calls.</p>
-    <form action="#" method="post"> <!--Form for newsletter signup-->
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      <button type="submit">Subscribe</button>
-    </form>
-</main>
-<footer align="center">
-    <h4>Trivest Publishing House</h4>
-    <p>Discovering powerful voices and bringing compelling stories to readers across South Africa and the world.</p>
+        <!-- Latest News Section -->
+        <h3>Latest News</h3>
+        <div class="news-cards">
+            <div class="news-card">
+                <h4>New Release: Dust over Durban: New Horizons</h4>
+                <p>September 2025</p>
+            </div>
+            <div class="news-card">
+                <h4>Submissions Open for 2025 Fiction Titles</h4>
+                <p>Submit your story today and join our roster of talented authors.</p>
+            </div>
+            <div class="news-card">
+                <h4>Author Thandiwe Mokoena Wins Emerging Voices Award</h4>
+                <p>Celebrating rising talent in the literary world.</p>
+            </div>
+        </div>
 
-    <h4>Explore</h4>
-            <ul> <!--Secondary links in the footer of the website-->
+        <!-- Newsletter Signup -->
+        <h3>Join Our Newsletter</h3>
+        <p>Stay updated on new releases, author events, and submission calls.</p>
+        <form action="#" method="post" class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </main>
+
+    <footer>
+    <div class="footer-columns">
+        <div>
+            <h4>Trivest Publishing House</h4>
+            <p>Discovering powerful voices and bringing compelling stories to readers across South Africa and the world.</p>
+        </div>
+
+        <div>
+            <h4>Explore</h4>
+            <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
                 <li><a href="authors.html">Our Authors</a></li>
                 <li><a href="menu.html">Book Catalogue</a></li>
                 <li><a href="submission.html">Submit Manuscript</a></li>
             </ul>
+        </div>
 
-    <h4>Get in Touch</h4>
-            <p><strong>Email:</strong><br>enquiries@trivestpublishing.co.za</p>
-            <p><strong>Phone (Main Office):</strong><br>+27 75 890 5523</p>
-            <p><strong>Phone (Johannesburg Office):</strong><br>+27 75 334 7769</p>
-            <p><strong>Phone (Cape Town Office):</strong>+27 75 889 5678</p>
-            <p><strong>Address (Main Office):</strong>3476 Grover Avenue,Pretoria, 2000</p>
-            <p><strong>Address (Johannesburg Office):</strong><br>1091 Bresson Street, Johannesburg, 2001</p>
-            <p><strong>Address (Cape Town Office):</strong>2983 Crescent Drive, Cape Town, 4456</p>
+        <div>
+            <h4>Get in Touch</h4>
+            <p><strong>Email:</strong><br>info@trivestpublishing.co.za</p>
+            <p><strong>Phone:</strong><br>+27 11 234 5678</p>
+            <p><strong>Address:</strong><br>123 Literary Lane,<br>Johannesburg, 2000</p>
+        </div>
+
+        <div>
             <h4>Connect With Us</h4>
-                <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
-                <a href="#">Instagram</a>
-                <a href="#">LinkedIn</a>
-    
-                <p>&copy; 2025 Trivest Publishing House. All rights reserved.</p>
-                <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a></p>
+            <a href="#" aria-label="Visit our Facebook page">Facebook</a>
+            <a href="#" aria-label="Follow us on Twitter">Twitter</a>
+            <a href="#" aria-label="Follow us on Instagram">Instagram</a>
+            <a href="#" aria-label="Connect on LinkedIn">LinkedIn</a>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2025 Trivest Publishing House. All rights reserved.</p>
+        <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a></p>
+    </div>
 </footer>
+
 </body>
 </html>
