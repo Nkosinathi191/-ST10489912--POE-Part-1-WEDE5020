@@ -43,6 +43,11 @@ This section contains the initial HTML structure, project proposal, and content 
 
 ## Part 2 Screenshots
 
+![Alt text](images/Screenshot 1.png)
+![Alt text](images/Screenshot 2.png)
+![Alt text](images/Screenshot 3.png)
+![Alt text](images/Screenshot 4.png)
+![Alt text](images/Screenshot 5.png)
 
 ## Changelog
 
