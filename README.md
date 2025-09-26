@@ -57,8 +57,17 @@ All notable changes to this project will be documented in this section.
 | 2025-08-26 | 0.8 | Modified some content on all the footers and contactus.html. |
 | 2025-09-01 | 0.9 | Created CSS file and started implemnting global styles. |
 | 2025-09-03 | 1.0 | Started adding CSS styling to the index.html class. |
-| 2025-09-04 | 1.1 | Continues adding CSS styling to the index.hmtl file, and also starting with the contactus.html file.|
-
+| 2025-09-04 | 1.1 | Continues adding CSS styling to the index.hmtl file, and also starting with the contactus.html file. |
+| 2025-09-06 | 1.2 | Finished styling on index.html and continued with contactus.html styling. |
+| 2025-09-07 | 1.3 | Finished styling on the contactus.html file. |
+| 2025-09-14 | 1.5 | Started styling on aboutus.html. |
+| 2025-09-16 | 1.6 | Finished styling aboutus.html, and started submission.html. |
+| 2025-09-17 | 1.7 | Started styling authors.html while still styling submission.html. |
+| 2025-09-19 | 1.8 | Finished stying submission.html. |
+| 2025-09-20 | 1.9 | Finished styling authors.html and started styling menu.html. |
+| 2025-09-23 | 2.0 | Finished styling menu.html. |
+| 2025-09-24 | 2.1 | Changed the styling of the header and the footer. |
+| 2025-09-26 | 2.2 | Added a few touchups before submission. |
 
 
 ## References
