@@ -518,3 +518,123 @@ footer {
         font-size: 1rem;
       }
     }
+
+    /* =======================
+       Header (Modern Open Look)
+    ======================= */
+    header {
+        background: linear-gradient(to bottom, blueviolet, #3A1C71);
+        color: white;
+        padding: 60px 20px;
+        text-align: center;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+      }
+  
+      header h1 {
+        margin: 0 0 25px 0;
+        font-size: 3rem;
+      }
+  
+      header nav {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+  
+      header nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 20px;
+        font-weight: bold;
+        font-size: 1.2rem;
+        position: relative;
+        transition: color 0.3s;
+      }
+  
+      header nav a::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #D76D77;
+        transition: width 0.3s;
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+      }
+  
+      header nav a:hover {
+        color: #FFAF7B;
+      }
+  
+      header nav a:hover::after {
+        width: 100%;
+      }
+  
+      /* Hamburger button */
+      .menu-toggle {
+        display: none;
+        font-size: 2rem;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+      }
+  
+      /* =======================
+         Breakpoints
+      ======================= */
+  
+      /* Tablet (≤1023px) */
+      @media (max-width: 1023px) {
+        header {
+          padding: 40px 15px;
+        }
+  
+        header h1 {
+          font-size: 2.2rem;
+        }
+  
+        header nav a {
+          margin: 0 10px;
+          font-size: 1rem;
+        }
+      }
+  
+      /* Mobile (≤767px) */
+      @media (max-width: 767px) {
+        header {
+          text-align: left;
+          padding: 30px 15px;
+        }
+  
+        header h1 {
+          font-size: 1.8rem;
+          margin-bottom: 15px;
+        }
+  
+        .menu-toggle {
+          display: block; /* Show hamburger on mobile */
+          margin-top: 10px;
+        }
+  
+        header nav {
+          display: none; /* Hidden until toggled */
+          flex-direction: column;
+          gap: 10px;
+          margin-top: 15px;
+        }
+  
+        header nav.show {
+          display: flex; /* Show when toggled */
+        }
+  
+        header nav a {
+          margin: 0;
+          font-size: 1rem;
+        }
+      }
+  
+      

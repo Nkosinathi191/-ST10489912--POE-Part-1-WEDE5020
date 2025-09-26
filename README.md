@@ -41,6 +41,9 @@ Growth in newsletter sign-ups
 
 This section contains the initial HTML structure, project proposal, and content research for the website.
 
+## Part 2 Screenshots
+
+
 ## Changelog
 
 All notable changes to this project will be documented in this section.
